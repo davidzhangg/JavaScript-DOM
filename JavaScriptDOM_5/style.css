@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  height: 300px;
+  color: white;
+  padding: 50px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.9), rgba(0, 0, 255, 0.7)),
+    url("https://images.unsplash.com/photo-1576854531280-9087cfd26e86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  flex: 1;
+}
+
+.menu {
+  flex: 2;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+
+button#show-all {
+  padding: 5px 10px;
+  color: white;
+
+  background-color: transparent;
+}
+
+button#show-all:hover {
+  background-color: white;
+  color: black;
+}
+
+.jobs {
+  color: black;
+  padding: 25px 50px;
+  display: flex;
+}
+
+.job-card {
+  border-radius: 8px;
+  margin: 0 15px;
+  padding: 0 15px;
+  box-shadow: 0 0 32px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h4 {
+  margin: 0;
+}
+
+.job-card ul {
+  margin: 0;
+  padding: 15px;
+}
